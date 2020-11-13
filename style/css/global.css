@@ -807,6 +807,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .hero__title-wrapper {
   margin-top: 135px;
   float: left;
+  margin-right: -630px;
 }
 
 .hero__title-large {
@@ -2954,9 +2955,9 @@ body {
 }
 .card {
   transform-style: preserve-3d;
-  background-color: rgb(0 0 0 / 90%);
+  background-color: rgb(26 26 26 / 80%);
   /* min-height: 1vh; */
-  width: 35rem;
+  width: 80rem;
   border-radius: 80px;
   padding: 0rem 5rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
