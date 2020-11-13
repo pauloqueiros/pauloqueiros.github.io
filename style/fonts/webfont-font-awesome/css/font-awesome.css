@@ -572,6 +572,7 @@
 }
 .fa-linkedin-square:before {
   content: "\f08c";
+  color: #a21e3b;
 }
 .fa-thumb-tack:before {
   content: "\f08d";
@@ -586,6 +587,7 @@
   content: "\f091";
 }
 .fa-github-square:before {
+  color: #a21e3b;
   content: "\f092";
 }
 .fa-upload:before {
@@ -613,6 +615,7 @@
   content: "\f09a";
 }
 .fa-github:before {
+  color: #a21e3b;
   content: "\f09b";
 }
 .fa-unlock:before {
@@ -783,6 +786,7 @@
 }
 .fa-linkedin:before {
   content: "\f0e1";
+  color: #a21e3b;
 }
 .fa-rotate-left:before,
 .fa-undo:before {
@@ -930,6 +934,7 @@
   content: "\f112";
 }
 .fa-github-alt:before {
+  color: #a21e3b;
   content: "\f113";
 }
 .fa-folder-o:before {

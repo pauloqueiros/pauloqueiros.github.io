@@ -21,7 +21,7 @@
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -437,12 +437,12 @@ a {
 }
 
 ::-moz-selection {
-  background: yellow;
+  background: #a21e3b;
   color: black;
 }
 
 ::selection {
-  background: yellow;
+  background: #a21e3b;
   color: black;
 }
 
@@ -711,8 +711,8 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   top: 0;
   left: 0;
   z-index: -500;
-  width: 100%;
-  height: 1000px;
+  width: 1200%;
+  height: 1505%;
   overflow: hidden;
 }
 
@@ -723,8 +723,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   z-index: -400;
   width: 100%;
   height: 100%;
-  background-image: url("../img/hero_background.jpg");
+  background-image: url("../img/hero_background.png");
   background-repeat: repeat;
+  background-size: 2201px;
+  background-position-x: -187px;
 }
 
 @-webkit-keyframes HeroGradient {
@@ -822,7 +824,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 700;
   font-size: 55px;
-  margin-left: 20px;
   margin-top: 15px;
 }
 
@@ -1039,6 +1040,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .experience__icon--javascript {
   background-image: url("../img/exp/exp_javascript.svg");
+}
+
+.experience__icon--node {
+  background-image: url("../img/exp/exp_node.svg");
 }
 
 .experience__icon--sass {
