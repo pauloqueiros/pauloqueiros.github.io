@@ -583,34 +583,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   margin: 0 auto;
 }
 
-.header__hamburger {
-  position: relative;
-  z-index: 150;
-  width: 36px;
-  float: left;
-  margin-top: 19px;
-  margin-left: 15px;
-  cursor: pointer;
-}
-
-.header__hamburger-block {
-  background-color: rgba(255, 255, 255, 0.9);
-  height: 4px;
-  -webkit-box-shadow: 0 0 20px black;
-  box-shadow: 0 0 20px black;
-  margin-bottom: 9px;
-  -webkit-transition: background-color 100ms ease-in-out;
-  transition: background-color 100ms ease-in-out;
-}
-
-.header__hamburger-block:last-of-type {
-  margin-bottom: 0;
-}
-
-.header__hamburger:hover .header__hamburger-block {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
 .header__navigation {
   position: fixed;
   top: 0px;
